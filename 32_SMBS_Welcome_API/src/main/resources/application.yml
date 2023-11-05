@@ -1,0 +1,22 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: WELCOME-API
+    
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+  
+management:
+  endpoints:
+     web:
+       exposure:
+         include: '*'
+         
+#if eureka server is not running in port 8761 we must provide theport like below but if we have set port 8761 is not required.   
+#eureka:
+#   client:
+#      serviceUrl:
+#         defaultZone: http://localhost:8761/eureka 

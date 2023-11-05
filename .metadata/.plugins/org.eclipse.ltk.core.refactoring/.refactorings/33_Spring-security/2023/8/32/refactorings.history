@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.nishchal.RestController.message&apos; to &apos;Message&apos;&#x0D;&#x0A;- Original project: &apos;33_Spring-security&apos;&#x0D;&#x0A;- Original element: &apos;in.nishchal.RestController.message&apos;&#x0D;&#x0A;- Renamed element: &apos;in.nishchal.RestController.Message&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;message&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.nishchal.RestController{message.java[message" matchStrategy="1" name="Message" qualified="false" references="true" similarDeclarations="false" stamp="1691808032132" textual="false" version="1.0"/>
+</session>
